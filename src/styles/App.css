@@ -71,6 +71,23 @@
   font-weight: bold;
 }
 
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.link-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -78,16 +95,20 @@
   padding-bottom: 30px;
 }
 
-.twitter-logo {
+.github-logo {
   width: 35px;
   height: 35px;
+  margin: 0 20px;
 }
 
 .footer-text {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  align-items: center;
+  display: flex;
 }
+
 
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
